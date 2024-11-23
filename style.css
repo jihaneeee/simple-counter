@@ -1,24 +1,57 @@
-h1{
-    text-align: center;
-}
-.counter_container {
-    text-align: center;
-
-}
-
-.manage {
-    display: flex;
-    justify-content: center; /* Center the blocks horizontally */
-    align-items: center; /* Align blocks vertically */
-    gap: 20px; /* Add space between blocks */
+    h1{
+        text-align: center;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        background-color: #c0bdbd;
     
-  }
-  
+    }
+    .counter_container {
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:xx-large;
+        font-weight:bolder;
+        
 
-button {
-  
-   
-    width: 100px;
-    height: 40px;
-    border-radius: 8px;
-  }
+    }
+
+    .manage {
+        display: flex;
+        justify-content: center; /* Center the blocks horizontally */
+        align-items: center; /* Align blocks vertically */
+        gap: 30px; /* Add space between blocks */
+        
+    }
+
+    
+
+    button {
+    
+        font-size:xxx-large;
+        width: 250px;
+        height: 70px;
+        border-radius: 30px;
+        background-color: #c7c4c4;
+    }
+
+        @media (max-width :800px){
+                button {
+                    font-size:xx-large;
+                    margin-bottom: 20px; /* Adds 20px space below each button */
+                    width: 80%;
+                    height: 70px;
+                }
+               
+                .manage {
+                    display: block;
+                }
+                .counter_container {
+                    font-size:x-large;
+                    font-weight:bolder;
+                    
+            
+                }
+            }
