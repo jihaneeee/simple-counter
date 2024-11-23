@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+.counter_container {
+    text-align: center;
+
+}
+
+.manage {
+    display: flex;
+    justify-content: center; /* Center the blocks horizontally */
+    align-items: center; /* Align blocks vertically */
+    gap: 20px; /* Add space between blocks */
+    
+  }
+  
+
+button {
+  
+   
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+  }
